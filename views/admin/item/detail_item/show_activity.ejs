@@ -51,7 +51,7 @@
                                         <td><%= activity[i].name %></td>
                                         <td><%= activity[i].type %></td>
                                         <td class="text-center">
-                                            <img src="https://adminserver-bwamern/<%= activity[i].imageUrl %>" alt="imageUrl" width="100px">
+                                            <img src="https://adminserver-bwamern.herokuapp.com//<%= activity[i].imageUrl %>" alt="imageUrl" width="100px">
                                         </td>
                                         <td>
                                             <form action="/admin/item/<%= itemId %>/activity/<%= activity[i].id %>?_method=DELETE" method="post">

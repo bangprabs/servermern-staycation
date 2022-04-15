@@ -11,7 +11,7 @@ const session = require('express-session');
 const flash = require('connect-flash');
 // import mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/db_mern', {
+mongoose.connect('mongodb+srv://staycation:staycation@cluster0.sccop.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
 });
 
